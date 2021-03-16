@@ -1,0 +1,28 @@
+{
+  "name": "brightdropdashboardbackend",
+  "version": "1.0.0",
+  "description": "backend server to brightdrop dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkunke1/brightdropDashboardBackend.git"
+  },
+  "author": "brandon kunkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkunke1/brightdropDashboardBackend/issues"
+  },
+  "homepage": "https://github.com/bkunke1/brightdropDashboardBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
